@@ -24,7 +24,7 @@ Download and run the installer from [code.visualstudio.com](https://code.visuals
 
 We recommend enabling the two "Add "Open with Code" action to Windows Explorer..." options:
 
-(https://i.vgy.me/ivqONx.png)
+![ivqONx](https://github.com/kidstech/setup/assets/2751987/43451d20-adbf-4c22-bac4-17a10acb4639)
 
 ## Install Git
 
@@ -34,11 +34,11 @@ Install it with the default options, except for the two screens described below.
 
 You may want to turn off the "Windows Explorer integration" shown below:
 
-![vgy.me](https://i.vgy.me/8ouuB4.png)
+![8ouuB4](https://github.com/kidstech/setup/assets/2751987/64f45f2d-95ba-4388-bbe2-979963aec6df)
 
 You may want to have it use VS Code as the default editor:
 
-![vgy.me](https://i.vgy.me/qmw8cK.png)
+![qmw8cK](https://github.com/kidstech/setup/assets/2751987/70cd7e35-6277-449c-a747-d2a955052901)
 
 ## Install GitKraken
 
@@ -56,7 +56,7 @@ Download and install it from [adoptopenjdk.net](https://adoptopenjdk.net/?varian
 
 It is recommended that you enable the "Set JAVA_HOME variable" option in the installer:
 
-![vgy.me](https://i.vgy.me/nitvbc.png)
+![nitvbc](https://github.com/kidstech/setup/assets/2751987/d81862f7-6f84-4e40-bb3a-a7f67d1d7b62)
 
 ## Install MongoDB
 
@@ -68,19 +68,19 @@ The "Complete" installation is recommended. Leave the defaults for everything. I
 
 Search for "environment" and open "Edit the system environment variables"
 
-![vgy.me](https://i.vgy.me/DiOWum.png)
+![DiOWum](https://github.com/kidstech/setup/assets/2751987/16165a13-fb62-45ec-9248-9c309c0b76c6)
 
 Click "Environment Variables..."
 
-![vgy.me](https://i.vgy.me/h4g9za.png)
+![h4g9za](https://github.com/kidstech/setup/assets/2751987/a0bf1f23-0d8a-4f29-bc33-1dcdbdd3c37c)
 
 Select "Path" in the bottom "System variables" pane and click "Edit..."
 
-![vgy.me](https://i.vgy.me/KAY0A7.png)
+![KAY0A7](https://github.com/kidstech/setup/assets/2751987/384e53dc-98c4-4f6d-bc9f-495fdc68e9d7)
 
 Make sure nothing is selected, click "Browse..."
 
-![vgy.me](https://i.vgy.me/bV4Mei.png)
+![bV4Mei](https://github.com/kidstech/setup/assets/2751987/5cc80a6c-01d4-4349-9add-be4bd878b283)
 
 Select `C:\Program Files\MongoDB\Server\[version]\bin`, where `[version]` is replaced by the version of Mongo you installed (in my example it is version 4.4), then click "OK"
 
@@ -89,9 +89,9 @@ Select `C:\Program Files\MongoDB\Server\[version]\bin`, where `[version]` is rep
 
 ### Test your MongoDB install
 
-After adding the tools to your path, open a new PowerShell window and run `mongo --version`. It should work without errors as and look similar to the screenshot below.
+After adding the tools to your path, open a new PowerShell window and run `mongod --version`. It should work without errors as and look similar to the screenshot below.
 
-![mongo --version](https://user-images.githubusercontent.com/1300395/104500249-c8b0eb00-55a3-11eb-8967-9576f4d5591c.png)
+<img width="657" alt="mongodtest" src="https://github.com/kidstech/setup/assets/2751987/eb50a376-b38b-4868-a437-fbf4fcfe4165">
 
 ## Install NodeJS
 
@@ -99,7 +99,7 @@ Download and run the LTS Windows installer from [nodejs.org](https://nodejs.org/
 
 The "Tools for Native Modules" option is optional. It is not necessary for what we are doing but you may want it for future projects that need it.
 
-![vgy.me](https://i.vgy.me/WA5jxL.png)
+![WA5jxL](https://github.com/kidstech/setup/assets/2751987/3707bbe2-1dbb-4ed6-8cd9-9c034ae4f4e6)
 
 
 ## Install the Angular CLI
@@ -111,7 +111,7 @@ npm install -g @angular/cli
 
 Now try running `ng`. You will probably get this error:
 
-![vgy.me](https://i.vgy.me/TOvNic.png)
+![TOvNic](https://github.com/kidstech/setup/assets/2751987/160be244-3db0-4dd5-8734-cfca77e94a71)
 
 To fix this run:
 
@@ -121,7 +121,7 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 
 Now if you run `ng` again you should get something like this:
 
-![vgy.me](https://i.vgy.me/UHJyFS.png)
+![UHJyFS](https://github.com/kidstech/setup/assets/2751987/8dfa6cf5-d754-4c1f-ae15-1a248d8a7cd6)
 
 ## Additional Setup
 
@@ -129,4 +129,4 @@ We recommend you disable "Hide extensions for known file types" in "Files Explor
 
 You can just search for "File Explorer Options" and find the option in the "View" tab:
 
-![vgy.me](https://i.vgy.me/jPuXlk.png)
+![jPuXlk](https://github.com/kidstech/setup/assets/2751987/fa27af08-9ae7-43fd-885b-f4c8cef995e3)

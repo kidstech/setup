@@ -99,6 +99,11 @@ After adding the tools to your path, open a new PowerShell window and run `mongo
 
 <img width="657" alt="mongodtest" src="https://github.com/kidstech/setup/assets/2751987/eb50a376-b38b-4868-a437-fbf4fcfe4165">
 
+### Also install extra Database Tools
+
+https://www.mongodb.com/docs/database-tools/installation/installation-windows/
+
+
 ## Install NodeJS
 
 Download and run the LTS Windows installer from [nodejs.org](https://nodejs.org/en/download/)

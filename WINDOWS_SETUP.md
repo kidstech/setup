@@ -40,6 +40,10 @@ You may want to have it use VS Code as the default editor:
 
 ![qmw8cK](https://github.com/kidstech/setup/assets/2751987/70cd7e35-6277-449c-a747-d2a955052901)
 
+You may want to adjust the name used for the initial branch in new repositories (we use "main"):
+
+![GitDefaultUseMain](https://github.com/kidstech/setup/assets/2751987/959c0426-d748-4d23-b0ca-f3285f3cfbb2)
+
 ## Install GitKraken
 
 Download and run the installer from [gitkraken.com](https://www.gitkraken.com/download/windows64)

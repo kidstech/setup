@@ -52,11 +52,13 @@ When GitKraken starts after installing, click "Sign in with GitHub" and sign int
 
 ## Install the JDK
 
-You need at least JDK version 11. We recommend OpenJDK 11 (LTS) from AdoptOpenJDK.
+You need JDK version 11. We recommend OpenJDK 11 (LTS) from AdoptOpenJDK.
 
 If you already have a Java version less than 11 installed, please uninstall it before proceeding. You can check if you have Java installed and what version it is by running `java --version` in PowerShell.
 
 Download and install it from [adoptopenjdk.net](https://adoptopenjdk.net/?variant=openjdk11&jvmVariant=hotspot)
+
+Select "Other platforms and versions", and in the "Version" dropdown menu, choose "11 - LTS". Scroll to the Windows x64 option and get the JDK (not just the JRE). Selecting the ".msi" version allows you to choose some options including enabling setting the JAVA_HOME as described and shown next:
 
 It is recommended that you enable the "Set JAVA_HOME variable" option in the installer:
 
